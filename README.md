@@ -3,7 +3,7 @@
  ## Veja como ficou o projeto:
  
  ## Desktop:
-  <img src="./src/images/todo-list.gif" alt="video do sistema em funcionamento">
+  <img src="./src/images/todo_list.gif" alt="video do sistema em funcionamento">
   
   ## Mobile:
    <img src="./src/videos-readme/shopping_cart_mobile.gif" alt="video do projeto mobile">
