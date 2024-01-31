@@ -1,0 +1,12 @@
+.search h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.search input {
+  width: 140%;
+  height: 35px;
+  border: 2.5px solid rgb(60, 107, 225);
+  outline: none;
+  border-radius: 6px;
+  padding: 0 10px;
+}
