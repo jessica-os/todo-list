@@ -49,16 +49,18 @@
     width: 65%;
     margin: 80px auto;
   }
-  .title-new-task {
-    margin-bottom: 20px;
-  }
-}
-@media (max-width: 400px) {
   .form {
     flex-direction: column;
     gap: 15px;
   }
-
+  .title-new-task {
+    margin-bottom: 20px;
+  }
+   .form select {
+    width: 50%;
+  }
+}
+@media (max-width: 400px) {
   .form select {
     width: 50%;
   }

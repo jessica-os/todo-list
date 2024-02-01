@@ -10,22 +10,21 @@
   border-radius: 6px;
   padding: 0 10px;
 }
-@media(max-width: 700px){
-
-  .search h2{
+@media (max-width: 700px) {
+  .search h2 {
     font-size: 20px;
   }
-  .search input{
+  .search input {
     width: 80%;
+    margin-bottom: 30px;
   }
 }
-@media(max-width: 420px){
-
-  .search h2{
+@media (max-width: 420px) {
+  .search h2 {
     font-size: 17px;
   }
-  .search input{
+  .search input {
     width: 60%;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
   }
 }
