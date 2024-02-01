@@ -3,10 +3,10 @@
  ## Veja como ficou o projeto:
  
  ## Desktop:
-  <img src="./src/images/todo_list.gif" alt="video do sistema em funcionamento">
+  <img src="./src/images/todo_list_desk.gif" alt="video da aplicação em desktop">
   
-  ## Mobile:
-   <img src="./src/videos-readme/shopping_cart_mobile.gif" alt="video do projeto mobile">
+  ## Mobile:  
+  <img src="./src/images/todo_list_mob.gif" alt="video da aplicação em desktop">
   
    
   ## Do que se trata esse projeto?
