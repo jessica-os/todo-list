@@ -6,7 +6,7 @@ const Search = ({search, setSearch}) => {
       <input type="text" 
       value={search}
       onChange={(e)=> setSearch(e.target.value)}
-      placeholder="Digite aqui para pesquisar uma tarefa"
+      placeholder="Pesquisar tarefa"
       
       />
     </div>

@@ -2,10 +2,10 @@ import "./filter.css";
 const Filter = ({ filter, setFilter, setSort }) => {
   return (
     <div className="filter">
-      <h2>Filtrar</h2>
+      
       <div className="filter-options">
         <div>
-          <p>Status:</p>
+          <h2>Filtrar</h2>
           <select value={filter} onChange={(e) => setFilter(e.target.value)}>
             <option value="all">Todas</option>
             <option value="completed">Completas</option>
@@ -15,7 +15,7 @@ const Filter = ({ filter, setFilter, setSort }) => {
 
         
         <div>
-        <p>Ordem alfabética:</p>
+        <h2>Ordenar</h2>
         <button onClick={() => setSort("asc")}>Asc</button>
         <button onClick={() => setSort("desc")}>Desc</button>
         </div>

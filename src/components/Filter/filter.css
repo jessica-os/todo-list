@@ -1,8 +1,11 @@
-.filter h2, p {
+.filter h2 {
   color: #fff;
+  margin-bottom: 10px;
 }
 .filter-options {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 50px;
 }
 .filter-options select {
@@ -27,4 +30,28 @@
   color: #fff;
   border: 2.5px solid #fff;
   margin-left: 15px;
+}
+@media (max-width: 700px) {
+  .filter h2 {
+    font-size: 20px;
+  }
+  .filter-options {
+    gap: 30px;
+  }
+}
+@media (max-width: 420px) {
+  .filter h2 {
+    font-size: 17px;
+  }
+  .filter-options {
+    gap: 10px;
+  }
+  .filter-options select {
+    width: 90%;
+  }
+  .filter-options button {
+    width: 40px;
+    height: 25px;
+
+  }
 }
